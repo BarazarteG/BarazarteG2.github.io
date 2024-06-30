@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin:0;
+    }
+    
+    
+    /* Background */
+    body{
+    background-image: url("https://cdn.dribbble.com/users/4048081/screenshots/12201146/media/393af3a5c5fdeabe338fbe745a198551.gif");
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;    
+    }
+    
+                            /*Navbar*/
+    
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    top: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.685);
+    position: fixed;
+        
+    }
+    
+    .botton{
+    display: inline-block;
+    border: 2px inset rgb(229, 228, 226);
+    border-radius: 15px 0px 15px 0px;
+    margin: 5px;
+    padding: 3px;
+    margin-right: 15px;
+    background: linear-gradient(to top left, #ffffff 0%, #ffff66 100%);
+    }
+    
+    .link{
+    text-decoration:none;
+    color: orange;   
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 200;
+    font-style: normal;
+    }
+    
+    .perfil{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 60px;
+    border: 5px inset orange;
+    background-image: url("/ImagenesPágina/IMG-20231127-WA0061.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+    
+                /*¿Quíen Soy?*/
+    .Yo{
+    display:Flex;
+    justify-content:space-around;
+    padding: 5px;
+    margin: 3px;
+    float: left;
+    margin-top: 150px;   
+    margin-bottom: 150px;
+    align-items: center;
+    }
+    .texto{
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+    border-top: 6px inset orange;
+    border-left: 3px inset orange;
+    padding: 5px;
+    padding-left:10px; 
+    background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+    margin: 10px;  
+    }
+    p{
+        
+    text-align: center;
+    font-size: 12px;  
+    font-family: "Playwrite NG Modern", cursive;
+    font-weight: 200;
+    font-style: normal;
+       
+    }
+    h1{
+      font-family: "Playwrite MX", cursive;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 25px;
+      background: linear-gradient(to top left, #ffffff 0%, #000000 35%);
+      border-bottom: 3px inset orange;
+      border-right: 5px outset orange;
+      color: orange;
+    }
+    .titulo1{
+    margin: 5px;
+    margin-bottom: 30px;
+    }
+    .fotos{
+    display:flex;    
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    left: 0;
+    border: 5px inset orange;
+    border-radius: 60px;
+    background-image: url("./ImagenesPágina/IMG_20230131_120234.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+    .fotos2{
+    display:flex;    
+    width: 350px;
+    height: 250px;
+    align-items: center;
+    left: 50px;
+    border: 5px inset orange;
+    border-radius: 60px;
+    background-image: url("./ImagenesPágina/IMG-20230606-WA0053.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+                            /*Proyectos*/
+h2{
+    font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+h3{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    text-align: center;
+
+}
+a{
+    color: orangered;
+}
+                            .botones{
+                                display: flex;
+                        justify-content:space-between;
+                        background-color: black;
+                        border-left: 2px inset orange;
+                        border-top: 4px outset orange;
+                        border-radius: 0px 0px 45px;   
+                        height: auto; 
+                            }
+                            .orden{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 10px;
+                            }
+                        .img1{
+                            Background-image: url("https://cdn-icons-png.flaticon.com/512/10310/10310245.png");
+                            background-position: center;
+                            background-repeat: no-repeat;  
+                            background-size: 100%;
+                            height: 150px;
+                            width: 150px;
+                            
+                        }
+                        .img2{
+                            Background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIlWdGlF4K8F0LsMpLeVu4eQRrprR9gNM9mA&s");
+                            background-position: center;
+                            background-repeat: no-repeat;  
+                            background-size: 100%;
+                            height: 150px;
+                            width: 150px;
+                        }
+                        .img3{
+                            Background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp_e5TbEjl0lfwJvbZuoII8BFtLmqdCv7dcw&shttps://cdn-icons-png.flaticon.com/512/10310/10310245.png");
+                            background-position: center;
+                            background-repeat: no-repeat;  
+                            background-size: 100%;
+                            height: 150px;
+                            width: 150px;
+                        }
+                        .img4{
+                            Background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnF9QbHGbEMFTGNaoPXRWTvYT4k4FYwmtccA&s");
+                            background-position: center;
+                            background-repeat: no-repeat;  
+                            background-size: 100%;
+                            height: 150px;
+                            width: 150px;
+                        }
+                        .img5{
+                            Background-image: url("https://wallpapercave.com/wp/wp6473225.png");
+                            background-position: center;
+                            background-repeat: no-repeat;  
+                            background-size: 100%;
+                            height: 150px;
+                            width: 150px;
+                        }
+                        .contenedor{
+                            visibility: hidden;
+                            border-top: 5px outset orange;
+                            border-left: 2px inset orange;
+                            background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+                        }
+                        .contenedor2{
+                            visibility: hidden;
+                            border-top: 5px outset orange;
+                            border-left: 2px inset orange;
+                            background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+                        }
+                        .contenedor3{
+                            visibility: hidden;
+                            border-top: 5px outset orange;
+                            border-left: 2px inset orange;
+                            background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+                        }
+                        .contenedor4{
+                            visibility: hidden;
+                            border-top: 5px outset orange;
+                            border-left: 2px inset orange;
+                            background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+                        }
+                        .contenedor5{
+                            visibility: hidden;
+                            border-top: 5px outset orange;
+                            border-left: 2px inset orange;
+                            background: linear-gradient(to top left, #ffcc00 0%, #ffffff 70%);    
+                        }
+                            /*Habilidade*/
+li{
+text-decoration: none;
+}
+    .habilidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px;
+    background-color: black;
+    border-top: 4px outset orange;
+    border-left: 2px inset orange;
+    margin-top: 10px;
+    }
+    .duras{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:white; 
+    margin: 10px; 
+    border-top: 4px outset orange;
+    border-left: 2px inset orange;
+    border-radius: 60px 10px 60px 10px;
+    padding: 20px;    
+    }
+    .fondopuntos{
+    background-color: orange;
+    width: 150px;
+    height: 30px;
+    border-radius: 5%;
+    padding:3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .punto{
+    background-color: black;
+    width:20px;
+    height: 20px;
+    margin: 5px;    
+    }
+    .titulo2{
+        background: linear-gradient(to bottom right, #ffffff 85%, #000000 100%);
+        color: orange;
+    }
+
+                                /*Footer*/
+    .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;    
+    width: 100%;    
+    bottom: 0;
+    padding: 5px;
+    background-color: orange;
+    }
+    .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 11px;    
+    }
+
+    .titulo3{
+        color:white;
+        text-align: center;
+        text-decoration-line: underline ;
+    }
+    .infoextra{
+        color: orange;
+        text-align: center;
+    }
